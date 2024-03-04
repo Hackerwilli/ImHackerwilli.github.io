@@ -1,0 +1,151 @@
+/* style.css */
+
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Faculty styles */
+.faculty {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.faculty-card {
+    width: calc(33.33% - 40px);
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.faculty-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.faculty-info {
+    padding: 20px;
+}
+
+.faculty-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.faculty-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.faculty-info a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.faculty-info a:hover {
+    background-color: #555;
+}
+
+
+    .faculty-card {
+        (max-width: 480px)
+        width: calc(100% - 40px);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.background {
+    min-height: 100vh;
+    width: 100%;
+    background: url("fac.jpeg") center/cover no-repeat;
+    position: relative;
+}
+
+.dark_background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+.dark_background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+nav, .links{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+}
+
+.links a:hover{
+    color: #00714c;
+}
+
+nav a, i{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.intro-text{
+    position: absolute;
+    left: 20%;
+    top: 45%;
+    width: 60%;
+    color: white
+}
+
+/* style.css */
+
+/* Footer styles */
+.footer {
+    background-color: #423f3fd2;
+    color: #a694f7;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
